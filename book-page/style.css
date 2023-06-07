@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css3?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+  transition: width none;
+}
+
+.dropdown-menu {
+  background-color: #00802b;
+}
+
+.box .tombol span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14pt;
+}
+.book-page h2 {
+  font-size: 24pt;
+}
+
+.book-page h3 {
+  font-size: 16pt;
+  text-decoration: none;
+}
+
+.book-page .box {
+  height: 110vh;
+  margin-top: 100px;
+  margin-left: 180px;
+}
+
+/* book image*/
+.book-page .stick-box {
+  height: 95vh;
+}
+
+.book-page .box-child {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(146, 146, 146, 0.8);
+  max-width: 345px;
+  border-radius: 10px;
+  position: sticky;
+  top: 100px;
+}
+
+.book-page .box-child .img-box {
+  text-align: center;
+  max-height: 345px;
+  padding: 20px;
+}
+
+.book-page .box-child .img-box img {
+  width: 100%;
+  max-height: 305px;
+  text-align: center;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+/*end of book image*/
+
+/*isi buku */
+.book-page .box h1 {
+  font-size: 30pt;
+  margin-bottom: 30px;
+}
+.book-page .box .line {
+  background-color: #eaeaea;
+  height: 2px;
+  width: 60%;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.book-page .box p {
+  margin-top: 20px;
+}
+
+.book-page .navbar-book {
+  display: flex;
+}
+
+.book-page .navbar-book li {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.book-page .navbar-book li a {
+  text-decoration: none;
+  color: black;
+}
+
+.book-page .desc h3 {
+  margin-top: 5px;
+}
+
+.book-page .desc p {
+  margin-top: -10px;
+  font-size: 12pt;
+}
+
+.book-page .detail h4 {
+  font-size: 10pt;
+  margin: 0;
+  color: #6d6d6d;
+}
+
+.book-page .detail p {
+  font-size: 12pt;
+  font-weight: 500;
+}
+/*end isi buku*/
+
+.navlink {
+  background-color: #00802b;
+  font-size: 1.1rem;
+  text-align: center;
+  z-index: 9999;
+}
+.navlink a {
+  color: #fff !important;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+}
+
+.navlink a:hover {
+  background: #006622;
+}
+
+.bottom-navbar {
+  text-align: center;
+  background: #00802b;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.bottom-navbar ul {
+  list-style: none;
+  margin-left: -2rem;
+  display: inline-block;
+}
+
+.bottom-navbar a {
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-navbar a:hover {
+  background: #006622;
+}
+
+/*FOOTER*/
+.footer {
+  background: #00802b;
+  margin-top: 20px;
+}
+.footer .footer-link {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.footer .footer-link:hover {
+  color: var(--primary-color) !important;
+}
+.footer a i {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .bottom-navbar {
+    display: block;
+  }
+  .navlink {
+    display: none;
+  }
+
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+}
+
+@media (max-width: 868px) {
+  .book-page .box {
+    margin-left: 0;
+    margin-top: 100px;
+    height: 900px;
+  }
+
+  .book-page .box .tombol {
+    margin-left: 0;
+  }
+
+  .book-page .stick-box {
+    position: relative;
+    height: 375px;
+  }
+}
+
+@media (max-width: 490px) {
+  .book-page .box {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 30px;
+    height: 1400px;
+  }
+  .book-page .stick-box {
+    position: relative;
+    height: 375px;
+  }
+  .book-page .box-child {
+    position: static;
+  }
+}

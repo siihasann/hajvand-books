@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.about {
+  font-family: 'Poppins', sans-serif;
+}
+.navlink {
+  background-color: #00802b;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.navlink a {
+  color: #fff !important;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+}
+
+.navlink a:hover {
+  background: #006622;
+}
+
+.bottom-navbar {
+  text-align: center;
+  background: #00802b;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.bottom-navbar a {
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-navbar a:hover {
+  background: #006622;
+}
+
+/*ABOUT SECTION*/
+
+.about .about-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about .about-section {
+  width: 100%;
+  padding: calc(5% + 30px) 0px;
+  display: flex;
+  margin: auto;
+}
+
+.about .about-section .img-banner {
+  position: relative;
+}
+
+.about .about-section .img-banner img {
+  width: 100%;
+}
+
+.about .about-section .text-head {
+  font-size: 28px;
+}
+
+.about .about-section .break-small {
+  width: 80px;
+  height: 3px;
+  background-color: #00802b;
+}
+
+/*Content Box*/
+
+.about .box {
+  text-align: center;
+  background-color: #00802b;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about .box h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.about .box i {
+  font-size: 40px;
+}
+
+.about .box p {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+/*BANNER*/
+.about .banner_section {
+  background: url('image/about.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+
+/*FOOTER*/
+.footer {
+  background: #00802b;
+  margin-top: 20px;
+}
+.footer .footer-link {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.footer .footer-link:hover {
+  color: var(--primary-color) !important;
+}
+.footer a i {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 30pt;
+  }
+  .jumbotron {
+    text-align: center;
+  }
+
+  .search {
+    padding-top: 1rem;
+  }
+  .bottom-navbar {
+    display: block;
+  }
+  .navlink {
+    display: none;
+  }
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+  .about h1 {
+    font-size: 25pt;
+  }
+  .about p {
+    font-size: 12pt;
+  }
+}
