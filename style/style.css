@@ -86,7 +86,7 @@
   color: #fff !important;
 }
 .home {
-  background-image: url(/image/banner-bg.jpg);
+  background-image: url(../image/banner-bg.jpg);
   background-size: cover;
   padding-bottom: 5rem;
 }
@@ -144,7 +144,7 @@
 }
 
 .box {
-  background-image: url(/image/horror6.jpg);
+  background-image: url(../image/horror6.jpg);
   width: 200px;
   height: 300px;
   background-size: cover;
@@ -154,28 +154,28 @@
 }
 
 .box2 {
-  background-image: url(/image/horror9.jpg);
+  background-image: url(../image/horror9.jpg);
 }
 .box3 {
-  background-image: url(/image/roman1.jpg);
+  background-image: url(../image/roman1.jpg);
 }
 .box4 {
-  background-image: url(/image/roman2.jpg);
+  background-image: url(../image/roman2.jpg);
 }
 .box5 {
-  background-image: url(/image/roman3.jpg);
+  background-image: url(../image/roman3.jpg);
 }
 .box6 {
-  background-image: url(/image/roman4.jpg);
+  background-image: url(../image/roman4.jpg);
 }
 .box7 {
-  background-image: url(/image/horror7.jpg);
+  background-image: url(../image/horror7.jpg);
 }
 .box8 {
-  background-image: url(/image/roman8.jpg);
+  background-image: url(../image/roman8.jpg);
 }
 .box9 {
-  background-image: url(/image/roman9.jpg);
+  background-image: url(../image/roman9.jpg);
 }
 .box h1 {
   font-size: 20px;
@@ -224,7 +224,7 @@
 /* nwsppr */
 
 .newsletter {
-  background: url(/image/bg.jpg) no-repeat;
+  background: url(../image/bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
